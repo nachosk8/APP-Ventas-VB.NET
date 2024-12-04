@@ -1,0 +1,696 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Txb_Precio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 150</value>
+  </data>
+  <data name="Txb_Precio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 31</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Txb_Precio.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;Txb_Precio.Name" xml:space="preserve">
+    <value>Txb_Precio</value>
+  </data>
+  <data name="&gt;&gt;Txb_Precio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txb_Precio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Txb_Precio.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Txb_Producto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 77</value>
+  </data>
+  <data name="Txb_Producto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 31</value>
+  </data>
+  <data name="Txb_Producto.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;Txb_Producto.Name" xml:space="preserve">
+    <value>Txb_Producto</value>
+  </data>
+  <data name="&gt;&gt;Txb_Producto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txb_Producto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Txb_Producto.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Txb_Categoria.Location" type="System.Drawing.Point, System.Drawing">
+    <value>210, 221</value>
+  </data>
+  <data name="Txb_Categoria.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 31</value>
+  </data>
+  <data name="Txb_Categoria.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Txb_Categoria.Name" xml:space="preserve">
+    <value>Txb_Categoria</value>
+  </data>
+  <data name="&gt;&gt;Txb_Categoria.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txb_Categoria.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Txb_Categoria.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Lbl_Producto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Producto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="Lbl_Producto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 76</value>
+  </data>
+  <data name="Lbl_Producto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="Lbl_Producto.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Lbl_Producto.Text" xml:space="preserve">
+    <value>NOMBRE</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Producto.Name" xml:space="preserve">
+    <value>Lbl_Producto</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Producto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Producto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Producto.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Lbl_Precio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Precio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="Lbl_Precio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 150</value>
+  </data>
+  <data name="Lbl_Precio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 30</value>
+  </data>
+  <data name="Lbl_Precio.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Lbl_Precio.Text" xml:space="preserve">
+    <value>PRECIO</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Precio.Name" xml:space="preserve">
+    <value>Lbl_Precio</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Precio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Precio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Precio.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Lbl_Correo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Correo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="Lbl_Correo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 220</value>
+  </data>
+  <data name="Lbl_Correo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 30</value>
+  </data>
+  <data name="Lbl_Correo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Lbl_Correo.Text" xml:space="preserve">
+    <value>CATEGORIA</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Correo.Name" xml:space="preserve">
+    <value>Lbl_Correo</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Correo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Correo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Correo.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Btn_AgregarProd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="Btn_AgregarProd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 58</value>
+  </data>
+  <data name="Btn_AgregarProd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 141</value>
+  </data>
+  <data name="Btn_AgregarProd.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="Btn_AgregarProd.Text" xml:space="preserve">
+    <value>AGREGAR PRODUCTO</value>
+  </data>
+  <data name="&gt;&gt;Btn_AgregarProd.Name" xml:space="preserve">
+    <value>Btn_AgregarProd</value>
+  </data>
+  <data name="&gt;&gt;Btn_AgregarProd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_AgregarProd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_AgregarProd.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Btn_ModificarProd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="Btn_ModificarProd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>529, 232</value>
+  </data>
+  <data name="Btn_ModificarProd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 46</value>
+  </data>
+  <data name="Btn_ModificarProd.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Btn_ModificarProd.Text" xml:space="preserve">
+    <value>MODIFICAR PRODUCTO</value>
+  </data>
+  <data name="&gt;&gt;Btn_ModificarProd.Name" xml:space="preserve">
+    <value>Btn_ModificarProd</value>
+  </data>
+  <data name="&gt;&gt;Btn_ModificarProd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_ModificarProd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_ModificarProd.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Btn_EliminarProd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="Btn_EliminarProd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>710, 56</value>
+  </data>
+  <data name="Btn_EliminarProd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 141</value>
+  </data>
+  <data name="Btn_EliminarProd.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="Btn_EliminarProd.Text" xml:space="preserve">
+    <value>ELIMINAR PRODUCTO</value>
+  </data>
+  <data name="&gt;&gt;Btn_EliminarProd.Name" xml:space="preserve">
+    <value>Btn_EliminarProd</value>
+  </data>
+  <data name="&gt;&gt;Btn_EliminarProd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_EliminarProd.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_EliminarProd.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Lbl_Consulta.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Consulta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="Lbl_Consulta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 448</value>
+  </data>
+  <data name="Lbl_Consulta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 30</value>
+  </data>
+  <data name="Lbl_Consulta.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="Lbl_Consulta.Text" xml:space="preserve">
+    <value>CONSULTAR STOCK</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Consulta.Name" xml:space="preserve">
+    <value>Lbl_Consulta</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Consulta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Consulta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Consulta.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="Btn_StockCompleto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="Btn_StockCompleto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 556</value>
+  </data>
+  <data name="Btn_StockCompleto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>583, 54</value>
+  </data>
+  <data name="Btn_StockCompleto.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Btn_StockCompleto.Text" xml:space="preserve">
+    <value>VER STOCK COMPLETO</value>
+  </data>
+  <data name="&gt;&gt;Btn_StockCompleto.Name" xml:space="preserve">
+    <value>Btn_StockCompleto</value>
+  </data>
+  <data name="&gt;&gt;Btn_StockCompleto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_StockCompleto.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_StockCompleto.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="Lbl_Rango.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Rango.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="Lbl_Rango.Location" type="System.Drawing.Point, System.Drawing">
+    <value>125, 662</value>
+  </data>
+  <data name="Lbl_Rango.Size" type="System.Drawing.Size, System.Drawing">
+    <value>393, 30</value>
+  </data>
+  <data name="Lbl_Rango.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="Lbl_Rango.Text" xml:space="preserve">
+    <value>CONSULTAR POR RANGO DE PRECIO</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Rango.Name" xml:space="preserve">
+    <value>Lbl_Rango</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Rango.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Rango.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Rango.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Lbl_Min.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Min.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="Lbl_Min.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 739</value>
+  </data>
+  <data name="Lbl_Min.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 30</value>
+  </data>
+  <data name="Lbl_Min.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="Lbl_Min.Text" xml:space="preserve">
+    <value>MINIMO</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Min.Name" xml:space="preserve">
+    <value>Lbl_Min</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Min.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Min.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Min.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="Lbl_Max.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Lbl_Max.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 11pt, style=Bold</value>
+  </data>
+  <data name="Lbl_Max.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 781</value>
+  </data>
+  <data name="Lbl_Max.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 30</value>
+  </data>
+  <data name="Lbl_Max.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="Lbl_Max.Text" xml:space="preserve">
+    <value>MAXIMO</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Max.Name" xml:space="preserve">
+    <value>Lbl_Max</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Max.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Max.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Lbl_Max.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="Txb_MinPrecio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 738</value>
+  </data>
+  <data name="Txb_MinPrecio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 31</value>
+  </data>
+  <data name="Txb_MinPrecio.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;Txb_MinPrecio.Name" xml:space="preserve">
+    <value>Txb_MinPrecio</value>
+  </data>
+  <data name="&gt;&gt;Txb_MinPrecio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txb_MinPrecio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Txb_MinPrecio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="Btn_Rango.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="Btn_Rango.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 739</value>
+  </data>
+  <data name="Btn_Rango.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 74</value>
+  </data>
+  <data name="Btn_Rango.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="Btn_Rango.Text" xml:space="preserve">
+    <value>CONSULTAR</value>
+  </data>
+  <data name="&gt;&gt;Btn_Rango.Name" xml:space="preserve">
+    <value>Btn_Rango</value>
+  </data>
+  <data name="&gt;&gt;Btn_Rango.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Rango.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_Rango.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="Txb_MaxPrecio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 782</value>
+  </data>
+  <data name="Txb_MaxPrecio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 31</value>
+  </data>
+  <data name="Txb_MaxPrecio.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;Txb_MaxPrecio.Name" xml:space="preserve">
+    <value>Txb_MaxPrecio</value>
+  </data>
+  <data name="&gt;&gt;Txb_MaxPrecio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Txb_MaxPrecio.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Txb_MaxPrecio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="Btn_Volver.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt, style=Bold</value>
+  </data>
+  <data name="Btn_Volver.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1006, 284</value>
+  </data>
+  <data name="Btn_Volver.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 48</value>
+  </data>
+  <data name="Btn_Volver.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="Btn_Volver.Text" xml:space="preserve">
+    <value>VOLVER</value>
+  </data>
+  <data name="&gt;&gt;Btn_Volver.Name" xml:space="preserve">
+    <value>Btn_Volver</value>
+  </data>
+  <data name="&gt;&gt;Btn_Volver.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Volver.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_Volver.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Btn_Salir.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt, style=Bold</value>
+  </data>
+  <data name="Btn_Salir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1006, 165</value>
+  </data>
+  <data name="Btn_Salir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 48</value>
+  </data>
+  <data name="Btn_Salir.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="Btn_Salir.Text" xml:space="preserve">
+    <value>SALIR</value>
+  </data>
+  <data name="&gt;&gt;Btn_Salir.Name" xml:space="preserve">
+    <value>Btn_Salir</value>
+  </data>
+  <data name="&gt;&gt;Btn_Salir.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Btn_Salir.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Btn_Salir.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DGV_Productos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>605, 556</value>
+  </data>
+  <data name="DGV_Productos.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="DGV_Productos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 258</value>
+  </data>
+  <data name="DGV_Productos.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;DGV_Productos.Name" xml:space="preserve">
+    <value>DGV_Productos</value>
+  </data>
+  <data name="&gt;&gt;DGV_Productos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DGV_Productos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DGV_Productos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-51, 401</value>
+  </data>
+  <data name="Label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1329, 14</value>
+  </data>
+  <data name="Label1.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="&gt;&gt;Label1.Name" xml:space="preserve">
+    <value>Label1</value>
+  </data>
+  <data name="&gt;&gt;Label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 25</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1218, 901</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Productos</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
